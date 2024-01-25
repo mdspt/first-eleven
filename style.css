@@ -1,0 +1,49 @@
+.field {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 500px;
+    gap: 10px;
+    
+}
+
+.section {
+    border: 2px solid green;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.team {
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.con-GK, .con-DEF, .con-MID, .con-FW {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.con-GK:first-child>* {
+    border: 2px solid blue;
+}
+
+.con-GK>*, .con-DEF>*, .con-MID>*, .con-FW>* {
+    border: 1px solid salmon;
+    flex-grow: 1;
+    align-self: center;
+}
+
+.B {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+p {
+    text-align: center;
+}
