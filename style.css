@@ -44,6 +44,9 @@
     flex-direction: column-reverse;
 }
 
-p {
-    text-align: center;
+.jersey {
+    display: flex;
+    justify-content: center;
+    border: 1px solid orangered;
 }
+
